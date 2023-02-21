@@ -1,7 +1,7 @@
 ---
-    -hosts: all
-    become: yes
-    tasks:
+    - hosts: all
+      become: yes
+      tasks:
         -name: i want to install java jdk8 on ubuntu server
         apt: 
             name: openjdk-8-jdk
