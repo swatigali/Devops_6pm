@@ -2,7 +2,7 @@
 - hosts: all
   becomes: yes
   tasks:
-      - name: install tree
-        apt:
-          name: tree
-          state: present
+    - name: install tree
+      apt:
+        name: tree
+        state: present
